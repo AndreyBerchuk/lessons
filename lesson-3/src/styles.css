@@ -1,0 +1,200 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1f1f1f;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  height: 80px;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 32px;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  background-color: #000;
+}
+
+h1 {
+  flex-grow: 1;
+  width: 1140px;
+  padding-bottom: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.6px;
+}
+
+.catalog {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1140px;
+  padding-bottom: 120px;
+}
+
+.list {
+  width: 260px;
+  margin-bottom: 48px;
+
+  /* background-color: aqua; */
+}
+
+.list ul {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+}
+
+.list li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.ad {
+  width: 260px;
+}
+
+.ad ul {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}
+
+.ad li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+
+  /* margin-bottom: 48px; */
+  background-color: #292929;
+}
+
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.ad p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.phones {
+  width: 832px;
+  height: 624px;
+}
+
+.phones ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+.phones li {
+  width: 260px;
+  height: 300px;
+}
+
+.phones img {
+  width: 230px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.phones article {
+  width: 262px;
+  height: 300px;
+  padding: 16px;
+  background-color: #1f1f1f;
+}
+
+h2 {
+  padding-bottom: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+}
+
+.phones h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+.phones p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.news article {
+  width: 267px;
+  height: 316px;
+}
+
+.news p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+}
+
+.news img {
+  width: 267px;
+  height: 200px;
+}
+
+.news {
+  /* width: 1140px; */
+  padding-bottom: 120px;
+}
+
+.news ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+}
