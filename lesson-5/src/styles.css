@@ -1,0 +1,270 @@
+body {
+  width: 1470px;
+  height: 1450px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #303030;
+}
+
+header {
+  position: sticky;
+  inset: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  width: 1470px;
+  height: 80px;
+  color: #eeeeec;
+  background-color: #222221;
+}
+
+.circle1 {
+  width: 40px;
+  height: 40px;
+  color: rgb(0 0 0);
+  background-color: #0eb9d7;
+  border-radius: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeec;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 64px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 12px;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.circle2 {
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.com/vladshcherbin/course/blob/master/lesson-4/example/images/avatar.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.general {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  padding: 0 32px;
+}
+
+.object {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  height: 300px;
+}
+
+main article {
+  align-content: flex-end;
+  width: 280px;
+  height: 300px;
+  padding: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.text {
+  width: 240px;
+  padding: 12px;
+  line-height: normal;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.sub {
+  position: absolute;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 208px;
+  padding: 16px;
+  background-color: #3e3e3c;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu:hover .sub {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  background-color: #191918;
+}
+
+.tabble {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 16px;
+  padding-top: 32px;
+}
+
+.tabble-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble-center {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble1 {
+  width: 292px;
+  height: 138px;
+  background-color: #222221;
+}
+
+.tabble2 {
+  width: 292px;
+  height: 138px;
+  background-color: #222221;
+}
+
+.tabble3 {
+  width: 292px;
+  height: 454px;
+  background-color: #222221;
+}
+
+.tabble4 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble5 {
+  width: 292px;
+  height: 454px;
+  background-color: #222221;
+}
+
+.tabble6 {
+  width: 600px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble7 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble8 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble9 {
+  width: 600px;
+  height: 146px;
+  background-color: #222221;
+}
+
+span {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 16px;
+}
+
+.tabble p {
+  padding-bottom: 32px;
+}
+
+.modal {
+  position: sticky;
+  inset: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.modal-info {
+  position: sticky;
+  inset: calc((100% - 320px) / 2) 0 0 calc((100% - 640px) / 2);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 640px;
+  height: 320px;
+  padding: 24px;
+  background-color: #3e3e3c;
+  border-radius: 12px;
+}
+
+.modal span {
+  width: 220px;
+  height: 272px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.modal-info div {
+  width: 348px;
+  height: 176px;
+}
+
+.general-tabble {
+  width: 1280px;
+  padding: 0 32px;
+  margin-top: 84px;
+  margin-bottom: 120px;
+}
