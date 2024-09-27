@@ -1,0 +1,275 @@
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  min-height: 812px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #21201c;
+  background-color: #fff;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registration {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  /* height: 720px; */
+  padding: 14px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+.info {
+  width: 320px;
+  height: 62px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #21201c;
+}
+
+.sign-in {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 12px;
+  align-items: center;
+}
+
+.sign-in input {
+  height: 32px;
+  padding-left: 8px;
+}
+
+.google {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 44px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #21201c;
+  border-radius: 8px;
+}
+
+.x {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 44px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #21201c;
+  border-radius: 8px;
+}
+
+.google:hover {
+  /* border: 1px solid #c91111; */
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.x:hover {
+  /* border: 1px solid #c91111; */
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 66px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8d8d86;
+}
+
+.email-password {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 16px;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.email input {
+  width: 320px;
+  height: 44px;
+  padding: 9px 16px;
+  border: 1px solid #21201c;
+  border-radius: 8px;
+}
+
+.email label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #21201c;
+}
+
+.password input {
+  width: 320px;
+  height: 44px;
+  padding: 9px 16px;
+  border: 1px solid #21201c;
+  border-radius: 8px;
+}
+
+.terms input {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: 1px solid #21201c;
+  border-radius: 8px;
+}
+
+.submit input {
+  width: 320px;
+  height: 44px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #21201c;
+  border-radius: 8px;
+}
+
+.email input:hover {
+  border: 2px solid #c91111;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8d8d86;
+}
+
+.password label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #21201c;
+}
+
+.password input:hover {
+  border: 2px solid #c91111;
+}
+
+.terms {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms input:checked {
+  background-color: #c91111;
+}
+
+.terms p {
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #21201c;
+}
+
+.terms span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #21201c;
+  cursor: pointer;
+  border-bottom: 1px solid #21201c;
+}
+
+.submit {
+  width: 320px;
+  height: 84px;
+  padding: 20px 0;
+}
+
+.submit label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #21201c;
+}
+
+.submit input:hover {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #c91111;
+}
+
+.log-in {
+  width: 320px;
+  text-align: center;
+}
+
+.log-in p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8d8d86;
+}
+
+.log-in span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #21201c;
+  cursor: pointer;
+  border-bottom: 1px solid #21201c;
+}
+
+.image {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .image {
+    position: fixed;
+    inset: 0 0 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 580px;
+    height: 720px;
+    margin: 24px;
+    background-image: url("https://github.com/vladshcherbin/course/blob/master/lesson-6/assets/calendar.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+    border-radius: 24px;
+  }
+
+  .home-page {
+    position: fixed;
+    inset: 0 auto 0 calc((100vw - 976px) / 2);
+    display: flex;
+    align-items: center;
+
+    /* padding: 24px; */
+  }
+}
