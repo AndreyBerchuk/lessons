@@ -1,0 +1,209 @@
+body {
+  width: 1470px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #303030;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  width: 1470px;
+  height: 80px;
+  color: #eeeeec;
+  background-color: #222221;
+}
+
+.circle1 {
+  width: 40px;
+  height: 40px;
+  color: rgb(0 0 0);
+  background-color: #0eb9d7;
+  border-radius: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeec;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 64px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 12px;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.circle2 {
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.com/vladshcherbin/course/blob/master/lesson-4/example/images/avatar.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.general {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  padding: 0 32px;
+}
+
+.object {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  height: 300px;
+}
+
+main article {
+  align-content: flex-end;
+  width: 280px;
+  height: 300px;
+  padding: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.text {
+  width: 240px;
+  padding: 12px;
+  line-height: normal;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  background-color: #191918;
+}
+
+.tabble {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 16px;
+  padding-top: 32px;
+}
+
+.tabble-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble-center {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.tabble1 {
+  width: 292px;
+  height: 138px;
+  background-color: #222221;
+}
+
+.tabble2 {
+  width: 292px;
+  height: 138px;
+  background-color: #222221;
+}
+
+.tabble3 {
+  width: 292px;
+  height: 454px;
+  background-color: #222221;
+}
+
+.tabble4 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble5 {
+  width: 292px;
+  height: 454px;
+  background-color: #222221;
+}
+
+.tabble6 {
+  width: 600px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble7 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble8 {
+  width: 292px;
+  height: 292px;
+  background-color: #222221;
+}
+
+.tabble9 {
+  width: 600px;
+  height: 146px;
+  background-color: #222221;
+}
+
+span {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 16px;
+}
+
+.tabble p {
+  padding-bottom: 32px;
+}
+
+.general-tabble {
+  width: 1280px;
+  padding: 0 32px;
+  margin-top: 84px;
+  margin-bottom: 120px;
+}
