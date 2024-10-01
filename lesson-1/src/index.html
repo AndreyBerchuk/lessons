@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>первое дз и сразу мощное резюме</title>
-        <style>
-         h1 {
-            font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            color:  rgb(205, 97, 9);
-        }
-        li{
-            font-size: 18px;
-            color: rgb(205, 97, 9);
-        }
-        .block{
-            background-color: rgb(0, 0, 0);
-        }
-        strong {
-            color:red
-        }
-        p{
-            font-weight: 100;
-            font-size: 18px;
-        }
-        </style>
-      
-    </head>
-    <body>
-        <img
-        src=data:image/jpeg;base64,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
-        alt="реклама"
-        >
-        <h1>Собственно резюме:</h1>
-        <h2>Берчук Андрей Дмитриевич</h2>
-        <p>30 лет (5 из которых насыщенной семейной жизни)</p>
-        <p>По гороскопу лев, но чаще всего прав</p>
-        <p>Осваивал теги, <strong>но так и не разобрался как заключить текст в угловые скобки:</strong></p>
-        <ul>
-        <li><a href=https://doka.guide/html/div>div</a></li>
-        <li><a href=https://doka.guide/html/span>span</a></li>
-        <li><a href=https://doka.guide/html/i>i</a>, <a href=https://doka.guide/html/em>em</a></li>
-        <li><a href=https://doka.guide/html/b>b</a>, <a href=https://doka.guide/html/strong>strong</a></li>
-        <li><a href=https://doka.guide/html/ul>ul</a></li>
-        <li><a href=https://doka.guide/html/ol>ol</a></li>
-        <li><a href=https://doka.guide/html/li>li</a></li>
-        </ul>
-        <p>Был близок к идеальному освоению стилизировать с помощью CSS, но потом вспомнил, что многое не знаю</p>
-        <p>По итогу остановился на:</p>
-        <ul>
-        <li><a href=https://doka.guide/css/background-color>background-color</a></li>
-        <li><a href=https://doka.guide/css/color>color</a></li>
-        <li><a href=https://doka.guide/css/font-family>font-family</a></li>
-        <li><a href=https://doka.guide/css/font-size>font-size</a></li>
-        <li><a href=https://doka.guide/css/font-weight>font-weight</a></li>
-        </ul>
-        <p><span class="block">Резюме подготовил лучший студент курса (просто Вы пока этого еще не знаете)</span></p>
-        <!-- ну а почему собственно и нет) -->
-        <p>P.S. оставлю <a href=https://www.youtube.com/watch?v=0tFQm3yj7UA&list=OLAK5uy_mxjhjX1UcviozOJizpXZT_TjwYMJUZsIQ&index=2>кайфовую песню</a> для атмосферы </p>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Первое дз и сразу мощное резюме</title>
+    <style>
+      h1 {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(205, 97, 9);
+      }
+
+      li {
+        font-size: 18px;
+        color: rgb(205, 97, 9);
+      }
+
+      .block {
+        background-color: rgb(0, 0, 0);
+      }
+
+      strong {
+        color: red;
+      }
+					
+      p {
+        font-weight: 100;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://podshipnikrus.ru/assets/images/69/698c4c_-.jpg"
+      alt="реклама"
+    >
+    <h1>Собственно резюме:</h1>
+    <h2>Берчук Андрей Дмитриевич</h2>
+    <p>30 лет (5 из которых насыщенной семейной жизни)</p>
+    <p>По гороскопу лев, но чаще всего прав</p>
+    <p>Осваивал теги, <strong>но так и не разобрался как заключить текст в угловые скобки:</strong></p>
+    <ul>
+      <li><a href="https://doka.guide/html/div">div</a></li> 
+      <li><a href="https://doka.guide/html/span">span</a></li>
+      <li><a href="https://doka.guide/html/i">i</a>, <a href="https://doka.guide/html/em">em</a></li>
+      <li><a href="https://doka.guide/html/b">b</a>, <a href="https://doka.guide/html/strong">strong</a></li>
+      <li><a href="https://doka.guide/html/ul">ul</a></li>
+      <li><a href="https://doka.guide/html/ol">ol</a></li>
+      <li><a href="https://doka.guide/html/li">li</a></li>
+    </ul>
+    <p>Был близок к идеальному освоению стилизировать с помощью CSS, но потом вспомнил, что многое не знаю</p>
+    <p>По итогу остановился на:</p>
+    <ul>
+      <li><a href="https://doka.guide/css/background-color">background-color</a></li>
+      <li><a href="https://doka.guide/css/color">color</a></li>
+      <li><a href="https://doka.guide/css/font-family">font-family</a></li>
+      <li><a href="https://doka.guide/css/font-size">font-size</a></li>
+      <li><a href="https://doka.guide/css/font-weight">font-weight</a></li>
+    </ul>
+    <p><span class="block">Резюме подготовил лучший студент курса (просто Вы пока этого еще не знаете)</span></p>
+    <!-- ну а почему собственно и нет) -->
+    <p>P.S. оставлю <a href="https://www.youtube.com/watch?v=0tFQm3yj7UA&list=OLAK5uy_mxjhjX1UcviozOJizpXZT_TjwYMJUZsIQ&index=2">кайфовую песню</a> для атмосферы</p>
+	</body>
 </html>
 
