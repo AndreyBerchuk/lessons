@@ -20,9 +20,13 @@ nav {
   padding: 20px 0;
 }
 
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 20px;
+}
+
 nav li {
-  display: inline;
-  margin-right: 20px;
   font-weight: 500;
   border-bottom: 2px solid #ff8630;
 }
@@ -34,16 +38,12 @@ main {
   justify-content: center;
 }
 
-.name {
-  display: block;
-  width: 940px;
-}
-
 h1 {
+  width: 940px;
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 26px;
-  font-weight: 100px;
+  font-weight: 500;
 }
 
 .articles-list ul {
@@ -65,7 +65,6 @@ h1 {
 }
 
 .author {
-  display: block;
   margin-bottom: 20px;
   text-align: right;
 }
@@ -80,13 +79,11 @@ h1 {
 }
 
 .data {
-  display: block;
   padding-bottom: 3px;
   text-align: right;
 }
 
 footer {
-  display: block;
   padding-top: 50px;
   text-align: center;
 }
