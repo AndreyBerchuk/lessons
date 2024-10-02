@@ -40,35 +40,34 @@ main {
 
 .mini-photo li {
   flex: 0 0 120px;
+}
 
-  /* height: 150px; */
+.description {
+  flex: 0 0 480px;
 }
 
 .info {
-  width: 480px;
-  padding-bottom: 48px;
-  color: #fff;
+  margin-bottom: 48px;
 }
 
 .info h1 {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-size: 20px;
   font-weight: 700;
   line-height: 32px;
 }
 
-details p {
-  padding-bottom: 32px;
+details {
+  margin-bottom: 32px;
 }
 
 .info p {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-weight: 400;
   line-height: 25.6px;
 }
 
 .cost {
-  padding-bottom: 24px;
   font-size: 18px;
   font-weight: 600;
   line-height: 28.8px;
@@ -90,18 +89,18 @@ button:hover {
   background-color: #a18072;
 }
 
-.open {
+.summary {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-.open h2 {
+.summary h2 {
   font-weight: 700;
   line-height: 25.6px;
 }
 
-.open svg {
+.summary svg {
   fill: #fff;
 }
