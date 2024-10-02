@@ -1,11 +1,11 @@
 body {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding-top: calc((100vh - 582px) / 2);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   color: #fff;
   background-color: #191918;
@@ -13,60 +13,48 @@ body {
 
 main {
   display: flex;
+  flex: 0 0 864px;
   flex-wrap: nowrap;
   gap: 64px;
-  width: 864px;
   background-color: #191918;
 }
 
 .photo {
   display: flex;
+  flex: 0 0 320px;
   flex-flow: column nowrap;
   gap: 32px;
-  width: 320px;
 }
 
 .main-photo {
-  width: 320px;
   height: 400px;
 }
 
 .mini-photo {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 24px;
   overflow: auto;
   overscroll-behavior: auto;
 }
 
-.mini-photo ul {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  gap: 24px;
-}
-
 .mini-photo li {
-  width: 120px;
-  height: 150px;
+  flex: 0 0 120px;
+
+  /* height: 150px; */
 }
 
 .info {
+  width: 480px;
   padding-bottom: 48px;
   color: #fff;
 }
 
-.info h2 {
-  width: 480px;
+.info h1 {
   padding-bottom: 24px;
-  font-family: Inter, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 32px;
-}
-
-button p {
-  font-family: Inter, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 25.6px;
-  color: #191918;
 }
 
 details p {
@@ -75,24 +63,24 @@ details p {
 
 .info p {
   padding-bottom: 24px;
-  font-family: Inter, Helvetica, sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
 }
 
 .cost {
   padding-bottom: 24px;
-  font-family: Inter, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 28.8px;
 }
 
 button {
-  width: 134px;
   height: 42px;
   padding: 8px 24px;
+  font-weight: 500;
+  line-height: 25.6px;
+  color: #191918;
+  cursor: pointer;
   background-color: #d4b3a5;
   border-radius: 10px;
   transition: background-color 0.5s ease-out 0.1s;
@@ -105,20 +93,15 @@ button:hover {
 .open {
   display: flex;
   flex-flow: row nowrap;
-  align-items: flex-start;
   justify-content: space-between;
   padding-bottom: 24px;
 }
 
-.open p {
-  height: 26px;
-  font-family: Inter, Helvetica, sans-serif;
-  font-size: 16px;
+.open h2 {
   font-weight: 700;
   line-height: 25.6px;
-  color: #fff;
 }
 
-span svg {
+.open svg {
   fill: #fff;
 }
